@@ -96,7 +96,7 @@ body {
     background-color: rgba(0, 81, 255, 0.863);
     width: 100%;
     padding: .4rem;
-    display: block;
+    
   }
 
   section{
@@ -111,4 +111,93 @@ body {
     margin-bottom: 2.5rem;
   }
 
+  .billing{
+    margin-left: 24rem;
+    margin-bottom: 2rem;
+  }
   
+  .vcard{
+    flex: 0 0 23%;
+
+    height: 1600px;
+    border: 1px solid gray;
+
+  }
+
+  .verticalcards{
+
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .topvcard{
+    border-bottom: 1px solid gray;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3, h4{
+    color: black;
+
+    
+  }
+
+  h3{
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  h4{
+    font-size: .9rem;
+  }
+
+  .midvcard{
+    margin-left: .8rem;
+    margin-top: .8rem;
+    
+  }
+
+  .features{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    color: black;
+    margin-left: .8rem;
+  }
+
+  i{
+    margin-right: 0.3rem;
+  }
+  
+
+  .start3{
+    color: white;
+    background-color: rgba(0, 81, 255, 0.863);
+    width: 100%;
+    padding: .7rem;
+    display: inline;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    
+     }
+
+
+     .endbox{
+        position: relative;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 1rem;
+     }
+
+     .fa-check{
+        color: blue;
+     }
