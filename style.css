@@ -344,21 +344,37 @@ body {
      
 
      .designit{
-      background-color: rgba(162,211,155,255);
+      width: 90px;
      }
 
      .asu{
-      background-color: rgba(97,8,43,255) ;
+      width: 90px;
      }
 
      .uof{
-      background-color: rgba(0,147,206,255);
+      width: 90px;
 
      }
 
      .topps{
-      background-color: rgba(255,28,28,255) ;
+      width: 90px ;
       
+     }
+     
+     .bicycle{
+      width: 130px;
+     }
+
+     .hearst{
+      width: 180px;
+     }
+
+     .lonely{
+      width: 120px;
+     }
+
+     .clear{
+      width: 90px;
      }
 
      
@@ -382,48 +398,72 @@ body {
      }
 
      .cbox1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
      background-color:rgba(162,211,155,255);
      width: 50%;
      height: 50%;
      }
 
      .cbox2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color:rgba(97,8,43,255);
       width: 50%;
       height: 50%;
       }
 
       .cbox3{
+        display: flex;
+      justify-content: center;
+      align-items: center;
         background-color:rgba(0,147,206,255);
         width: 50%;
         height: 50%;
         }
 
         .cbox4{
+          display: flex;
+      justify-content: center;
+      align-items: center;
           background-color:rgba(255,28,28,255);
           width: 50%;
           height: 50%;
           }
 
           .cbox6{
+            display: flex;
+      justify-content: center;
+      align-items: center;
             background-color:rgba(213,0,31,255);
             width: 50%;
             height: 50%;
             }
        
             .cbox7{
+              display: flex;
+      justify-content: center;
+      align-items: center;
              background-color:rgba(180,208,231,255);
              width: 50%;
              height: 50%;
              }
        
              .cbox8{
+              display: flex;
+      justify-content: center;
+      align-items: center;
                background-color:rgba(13,36,129,255);
                width: 50%;
                height: 50%;
                }
        
                .cbox9{
+                display: flex;
+      justify-content: center;
+      align-items: center;
                  background-color:rgba(255,216,48,255);
                  width: 50%;
                  height: 50%;
@@ -432,6 +472,10 @@ body {
                  .centerbox{
                   background-color: rgba(245,245,245,255);
                  }
+
+
+
+
        
             
 
