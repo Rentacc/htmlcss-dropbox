@@ -26,9 +26,10 @@ body {
     align-items: center;
     height: 2rem;
     min-width: 0;
-    
+    position: fixed;
     background-color: white;
     width: 100%;
+    border-bottom: 1 px solid gray;
 
   }
 
@@ -285,4 +286,37 @@ body {
       cursor: pointer;
      }
 
-     
+     .cardbox{
+      width: 330px;
+      margin-inline: 1rem;
+      
+     }
+
+     .imgcard{
+      width: 330px;
+     }
+
+     .cardrow1{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5rem;
+      
+     }
+
+     .cardrow2{
+      display: flex;
+      justify-content: center;
+      
+     }
+
+     .users{
+      margin-top: 7.5rem;
+      position: absolute;
+      left: 10rem;
+     }
+
+     .clientslink{
+      position: relative;
+      top: 3rem;
+     }
+
