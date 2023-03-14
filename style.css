@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     background-color: white;
+    
   }
 
   .start{
@@ -26,7 +27,12 @@ body {
     align-items: center;
     height: 2rem;
     min-width: 0;
-   
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
     background-color: white;
     width: 100%;
     border-bottom: 1 px solid gray;
@@ -46,6 +52,7 @@ body {
 
   .leftnav *:hover, .rightnav *:not(:last-of-type):hover{
     background-color: lightgrey;
+    cursor: pointer;
   }
 
   .section1{
@@ -53,6 +60,7 @@ body {
     height: 600px;
     max-height: 600px;
     background-color: rgba(180,208,231,255);
+    margin-top: 80px;
     
 
    
@@ -96,7 +104,8 @@ body {
     color: white;
     background-color: rgba(0, 81, 255, 0.863);
     width: 100%;
-    padding: .4rem;
+    padding: .5rem .7rem;
+    text-align: center;
     
   }
 
@@ -181,12 +190,24 @@ body {
     color: white;
     background-color: rgba(0, 81, 255, 0.863);
     width: 100%;
-    padding: .7rem;
+    padding: .5rem .7rem;
     display: inline;
     position: relative;
     left: 10%;
     top: 15%;
     
+     }
+
+     .start30{
+      color: white;
+      background-color: rgba(0, 81, 255, 0.863);
+      width: 100%;
+      padding: .5rem .7rem;
+      display: inline;
+      position: relative;
+      left: 31%;
+      top: 17%;
+
      }
 
 
@@ -208,7 +229,7 @@ body {
         color: white;
         background-color: rgba(0, 81, 255, 0.863);
         
-        padding: .4rem;
+        padding: .5rem .7rem;
         display: inline;
       }
 
@@ -320,3 +341,47 @@ body {
       top: 3rem;
      }
 
+     .containerclients{
+      margin-top: 700px;
+      width: 1008.8px;
+      
+     }
+
+     .designit{
+      background-color: rgba(162,211,155,255);
+     }
+
+     .asu{
+      background-color: rgba(97,8,43,255) ;
+     }
+
+     .uof{
+      background-color: rgba(0,147,206,255);
+
+     }
+
+     .topps{
+      background-color: rgba(255,28,28,255) ;
+      
+     }
+
+     .containerleft-top *{
+      width: 50px;
+      height: 50px;
+      
+      
+      
+     }
+
+     .containerleft-bottom *{
+      width: 50px;
+      height: 50px;
+      
+      
+     }
+
+     
+
+
+     
+      
