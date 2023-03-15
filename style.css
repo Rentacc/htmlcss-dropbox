@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     background-color: white;
+    width: 100%;
     
   }
 
@@ -17,6 +18,7 @@ body {
     color: white;
     background-color: rgba(0, 81, 255, 0.863);
     margin-left: 2rem;
+    margin-right: 2rem;
     padding: .4rem;
     display: inline;
   }
@@ -57,10 +59,11 @@ body {
 
   .section1{
     width: 100%;
-    height: 600px;
-    max-height: 600px;
+    height: 550px;
+    max-height: 1000px;
     background-color: rgba(180,208,231,255);
     margin-top: 80px;
+    margin-bottom: 8rem;
     
 
    
@@ -76,15 +79,20 @@ body {
     color: black;
     font-size: 80px;
     text-align: center;
+    margin-top: 4rem;
     margin-left: 6rem;
     margin-right: 6rem;
+    position: relative;
+    top: 1.8rem;
+    
   }
 
   .jumbo{
-    height: 420px;
+    height: 350px;
     position: relative;
-    bottom: 16.5rem;
+    bottom: 14.9rem;
     right: 3rem;
+    
     
   }
 
@@ -94,9 +102,10 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
-    gap: 2rem;
+    gap: 1.4rem;
     width: 20%;
     margin-left: 15rem;
+    font-size: 15px;
     
   }
 
@@ -345,36 +354,44 @@ body {
 
      .designit{
       width: 90px;
+      filter: invert(100%);
      }
 
      .asu{
       width: 90px;
+      filter: invert(100%);
      }
 
      .uof{
       width: 90px;
+      filter: invert(100%);
 
      }
 
      .topps{
       width: 90px ;
+      filter: invert(100%);
       
      }
      
      .bicycle{
       width: 130px;
+      filter: invert(100%);
      }
 
      .hearst{
       width: 180px;
+      filter: invert(100%);
      }
 
      .lonely{
       width: 120px;
+      filter: invert(100%);
      }
 
      .clear{
       width: 90px;
+      filter: invert(100%);
      }
 
      
@@ -404,6 +421,7 @@ body {
      background-color:rgba(162,211,155,255);
      width: 50%;
      height: 50%;
+     border: 18px solid rgba(209,233,205,255);
      }
 
      .cbox2{
@@ -417,8 +435,8 @@ body {
 
       .cbox3{
         display: flex;
-      justify-content: center;
-      align-items: center;
+        justify-content: center;
+        align-items: center;
         background-color:rgba(0,147,206,255);
         width: 50%;
         height: 50%;
@@ -426,8 +444,8 @@ body {
 
         .cbox4{
           display: flex;
-      justify-content: center;
-      align-items: center;
+          justify-content: center;
+          align-items: center;
           background-color:rgba(255,28,28,255);
           width: 50%;
           height: 50%;
@@ -435,8 +453,8 @@ body {
 
           .cbox6{
             display: flex;
-      justify-content: center;
-      align-items: center;
+            justify-content: center;
+            align-items: center;
             background-color:rgba(213,0,31,255);
             width: 50%;
             height: 50%;
@@ -444,8 +462,8 @@ body {
        
             .cbox7{
               display: flex;
-      justify-content: center;
-      align-items: center;
+             justify-content: center;
+             align-items: center;
              background-color:rgba(180,208,231,255);
              width: 50%;
              height: 50%;
@@ -453,8 +471,8 @@ body {
        
              .cbox8{
               display: flex;
-      justify-content: center;
-      align-items: center;
+              justify-content: center;
+              align-items: center;
                background-color:rgba(13,36,129,255);
                width: 50%;
                height: 50%;
@@ -462,8 +480,8 @@ body {
        
                .cbox9{
                 display: flex;
-      justify-content: center;
-      align-items: center;
+                justify-content: center;
+                align-items: center;
                  background-color:rgba(255,216,48,255);
                  width: 50%;
                  height: 50%;
@@ -471,8 +489,174 @@ body {
 
                  .centerbox{
                   background-color: rgba(245,245,245,255);
+                  display: flex;
+                  flex-direction: column;
+                  gap: 1.5rem;
+                  padding: 1rem;
+                 
                  }
 
+                 .designit2{
+                  width: 210px;
+                  margin-top: 1rem;
+                  
+                 }
+
+                 .fontsmall{
+                  font-size: 15px;
+                 }
+
+                 .horbox{
+                  width: 100%;
+                  height: 260px ;
+                  background-color: rgba(180,208,231,255) ;
+                  margin-top: -867px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 8rem;
+                  margin-bottom: 150px;
+                 }
+
+                 h5{
+                  color: rgba(111,34,45,255) ;
+                  font-size: 30px;
+                 }
+
+                 .startwhite{
+                  border: 2px solid gray;
+                  padding: 10px;
+                  display: inline-block;
+                  background-color: white;
+                  
+            
+                 }
+            
+                 .startwhite:hover{
+                  background-color: antiquewhite;
+                  cursor: pointer;
+                 }
+
+                
+                
+
+                 .faqbox::before {
+                  content: "";
+                  display: block;
+                  width: 100%;
+                  height:2rem;
+                  border-top: 1px solid black;
+                   }
+              
+              .faqbox {
+                  margin-bottom: 3rem;
+                  flex-grow: 0;
+                  color: black;
+              }
+              
+              .faq:last-child::after {
+                  content: "";
+                  display: block;
+                  width: 100%;
+                  height:2rem;
+                  border-top: 1px solid black;
+                  border-bottom-width: 1px solid black;
+              }
+
+
+              .empty{
+                border-top: 1px solid black;
+                position: relative;
+                top: 3.3rem;
+
+              }
+
+              .faq {
+               
+                width: 1000px;
+                height: 700px;
+                margin: auto;
+                
+                
+                
+            }
+
+            .fa-chevron-down{
+              margin-left: 10rem;
+            }
+
+            .footerbox{
+              background-color: black;
+            }
+
+            .footer{
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 400px;
+              font-size: 15px;
+              gap: 3rem;
+             
+
+            }
+
+            .footer *{
+              margin-bottom: .5rem;
+            }
+
+            ul{
+              list-style: none;
+            }
+
+            .bigger{
+              font-size: 20px;
+              font-weight: bold;
+              margin-bottom: 1rem;
+            }
+
+
+            .lang{
+              margin-left: 12.9rem;
+              font-size: .7rem;
+
+              
+            }
+
+            .fa-earth-americas{
+              margin-bottom: 2rem;
+            }
+
+            .empty2{
+              border-top: 2px solid white;
+              width: 5.4rem;
+              position: relative;
+              left: 12.9rem;
+              bottom: 1.8rem;
+            }
+
+           
+            
+
+              
+
+            
+
+            
+
+            
+
+            
+
+                
+
+                
+
+                
+
+                 
+
+                 
 
 
 
