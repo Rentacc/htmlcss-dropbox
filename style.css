@@ -48,14 +48,16 @@ body {
     gap: 1.4rem;
   }
 
-  .leftnav *, .rightnav *{
+  .leftnav * , .rightnav *{
     padding: .5rem;
   }
 
   .leftnav *:hover, .rightnav *:not(:last-of-type):hover{
-    background-color: lightgrey;
+    background-color: lightgray;
     cursor: pointer;
   }
+
+ 
 
   .section1{
     width: 100%;
